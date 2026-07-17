@@ -17,7 +17,6 @@ This repository contains scripts for:
   distances
 - PERMANOVA and pairwise PERMANOVA testing of community composition
   differences across socioeconomic categories
-- DESeq2 differential abundance testing of individual AMR/drug classes
 - Consolidation and summary of statistical outputs across all analyses
 
 ## Repository structure
