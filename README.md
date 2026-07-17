@@ -25,20 +25,7 @@ This repository contains scripts for:
 ```
 .
 ├── scripts/
-│   ├── functions.R                                  # shared helper functions (package install/load, etc.)
-│   ├── ordination_permanova_functions.R              # PCoA/NMDS/envfit/PERMANOVA helper functions
-│   ├── 06_ARG_ResFinder_Analysis_dimentionalityReduction.R
-│   ├── 06_ARG_ResFinder_Analysis_perDrugClass.R
-│   ├── 07_ARG_Ordination_PERMANOVA_AllMetrics.R      # main ordination + PERMANOVA driver
-│   ├── 08_ARG_DESeq2_DifferentialAbundance.R         # differential abundance testing
-│   ├── 09_parse_PERMANOVA_pairwiseAdonis_outputs.R   # consolidates all statistical outputs
-│   └── amr_heatmap_venn.R                            # heatmap + Venn diagram figure generation
-├── results_arg/
-│   └── r-analysis/
-│       ├── data/       # input abundance matrices, metadata, consolidated summary tables
-│       └── plots/      # generated figures and per-model statistical output files
 ├── docs/
-│   └── ANALYSIS_METHODS_AND_INTERPRETATION.md        # methods rationale, citations, interpretation guide
 ├── LICENSE
 └── README.md
 ```
@@ -50,9 +37,7 @@ This repository contains scripts for:
   `ggrepel`, `pheatmap`, `ggvenn`, `patchwork`, `ggplotify`, `DESeq2`, `ashr`,
   `pairwiseAdonis` (GitHub: `pmartinezarbizu/pairwiseAdonis`), `purrr`, `readr`
 
-Bioconductor packages (`DESeq2`) require R >= 4.4 with a matching Bioconductor
-release (3.20). See `docs/ANALYSIS_METHODS_AND_INTERPRETATION.md` for full
-package version notes and rationale for methodological choices.
+See `docs/packages.md` for full package version notes and rationale for methodological choices.
 
 ## Usage
 
@@ -63,9 +48,7 @@ variables at the top of each script to match your local environment before
 running.
 
 ```r
-source("scripts/07_ARG_Ordination_PERMANOVA_AllMetrics.R")
-source("scripts/08_ARG_DESeq2_DifferentialAbundance.R")
-source("scripts/09_parse_PERMANOVA_pairwiseAdonis_outputs.R")
+source("scripts/01.sample_data.R")
 ```
 
 ## Data availability
@@ -83,9 +66,6 @@ If you use this code, please cite:
 
 > [Author list]. [Manuscript title]. [Journal, year]. DOI: [add once available]
 
-See `docs/ANALYSIS_METHODS_AND_INTERPRETATION.md` for citations of the
-statistical methods and software packages used.
-
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE)
@@ -96,7 +76,3 @@ institution or funder requires a different license for published research
 code (e.g. GPL-3.0 or Apache-2.0), swap the `LICENSE` file accordingly before
 publishing the repository — this is a one-file change and does not require
 editing anything else here.
-
-## Contact
-
-[Your name / lab] — [email or ORCID]
