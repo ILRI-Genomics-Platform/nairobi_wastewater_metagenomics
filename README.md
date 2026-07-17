@@ -1,4 +1,4 @@
-# AMR Wastewater Surveillance: Socioeconomic Stratification Analysis
+# Wastewater Genomic Surveillance: Socioeconomic Stratification Analysis
 
 Analysis code accompanying the manuscript investigating Bacterial abundance and diversity, antimicrobial resistance
 (AMR) gene composition in wastewater across low-, middle-, and high-income catchment areas in Nairobi, Kenya, including a composite central
