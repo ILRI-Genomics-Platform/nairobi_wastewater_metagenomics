@@ -56,8 +56,9 @@ Raw sequencing data availability and accession numbers are described in the
 manuscript. Intermediate abundance matrices and metadata required to
 reproduce the statistical analyses in this repository are provided in
 `results_arg/r-analysis/data/` [update with accession/Zenodo DOI once
-deposited]. The custom Centrifuge database is also available on Zenodo:
-[update with accession/Zenodo DOI once deposited]
+deposited].
+
+The custom Centrifuge database is also available on Zenodo: [DOI:10.5281/zenodo.21391161](https://doi.org/10.5281/zenodo.21391161)
 
 ## Citation
 
