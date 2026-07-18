@@ -1,4 +1,6 @@
 # Wastewater Genomic Surveillance: Socioeconomic Stratification Analysis
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21429478.svg)](https://doi.org/10.5281/zenodo.21429478)
+
 
 Analysis code accompanying the manuscript investigating Bacterial abundance and diversity, antimicrobial resistance
 (AMR) gene composition in wastewater across low-, middle-, and high-income catchment areas in Nairobi, Kenya, including a composite central
@@ -52,13 +54,8 @@ source("scripts/01.sample_data.R")
 
 ## Data availability
 
-Raw sequencing data availability and accession numbers are described in the
-manuscript. Intermediate abundance matrices and metadata required to
-reproduce the statistical analyses in this repository are provided in
-`results_arg/r-analysis/data/` [update with accession/Zenodo DOI once
-deposited].
-
-The custom Centrifuge database is also available on Zenodo: [DOI:10.5281/zenodo.21391161](https://doi.org/10.5281/zenodo.21391161)
+Raw sequencing data availability and accession numbers are described in the manuscript.   
+Intermediate abundance matrices and metadata required to reproduce the statistical analyses are available upon request. Also the custom Centrifuge database is also available on Zenodo: [DOI:10.5281/zenodo.21391161](https://doi.org/10.5281/zenodo.21391161)
 
 ## Citation
 
